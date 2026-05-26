@@ -2,13 +2,15 @@ import React, { useState } from 'react'
 import './App.css'
 import BuildTailwindComp from './components/buildTailwindComp'
 import UseEffectRefAndCallback from "./components/useEffectRefAndCallback";
+import CurrencyComp from "./components/currency-type-project"
 
 function App() {
 
   return (
       <>
-        <UseEffectRefAndCallback />
-        <BuildTailwindComp />
+        <CurrencyComp />
+        {/* <UseEffectRefAndCallback />
+        <BuildTailwindComp /> */}
       </>
   )
 }
